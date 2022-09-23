@@ -1,0 +1,125 @@
+/* reset */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* header */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+.menu-lista {
+  display: flex;
+}
+
+.menu-lista li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+.boton-contacto {
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.logo img {
+  width: 55px;
+}
+
+/* footer */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.footer-menu-list {
+  display: flex;
+}
+
+.footer-menu-list li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+.footer-redes img {
+  width: 30px;
+}
+
+/* Home */
+/* Destacados */
+/* .home-destacados-imgs img {
+  width: 33%;
+  padding-left: 10px;
+  padding-right: 10px;
+} */
+
+.home-destacados-imgs,
+.home-ofertas-bannerdoble {
+  text-align: center;
+}
+
+.home-banner img,
+.home-ofertas-banner1 img,
+.zapatillas-banner img,
+.ofertas-banner img {
+  width: 100%;
+}
+
+main {
+  width: 95%;
+  margin: auto;
+}
+/* Ofertas */
+.home-ofertas-bannerdoble img {
+  width: 49%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.zapatilla-producto {
+  width: 33%;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.zapatilla-producto img {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.oferta-producto {
+  width: 33%;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.oferta-producto img {
+  width: 100%;
+}
+
+.efecto{
+  transition: all .3s ease-in;
+
+}
+.efecto:hover {
+  transform: scale(1.05);
+}
