@@ -1,0 +1,30 @@
+// Home
+
+.home-destacados-imgs,
+.home-ofertas-bannerdoble {
+    text-align: center;
+}
+
+.home-banner img,
+.home-ofertas-banner1 img,
+.zapatillas-banner img,
+.ofertas-banner img {
+    width: 100%;
+}
+
+
+/* Ofertas */
+
+.home-ofertas-bannerdoble img {
+    width: 49%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.efecto {
+    transition: all .3s ease-in;
+    &:hover {
+        transform: scale(1.05);
+    }
+}

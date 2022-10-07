@@ -1,0 +1,23 @@
+// 1. Utilities
+
+@import "utilities/variables";
+@import "utilities/mixins";
+
+// 2. Partials
+
+@import "partials/contact";
+@import "partials/ofertas";
+@import "partials/product";
+@import "partials/sobre-nosotros";
+@import "partials/zapatillas";
+@import "partials/home";
+
+// 3. Base 
+
+@import "base/reset";
+
+// 4. Layout 
+
+@import "layout/footer";
+@import "layout/header";
+

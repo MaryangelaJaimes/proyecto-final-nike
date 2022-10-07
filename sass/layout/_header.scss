@@ -1,0 +1,44 @@
+@import "../utilities/variables";
+
+// Header
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+.menu-lista {
+  display: flex;
+}
+
+.menu-lista li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+.boton-contacto {
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.logo img {
+  width: 55px;
+}
+
+.ofertas-link {
+  color: $color-principal;
+
+}
+
+.header .container-nike {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: inherit;
+
+
+}
