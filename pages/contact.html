@@ -45,7 +45,7 @@
                             <a class="nav-link" href="sobre-nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="product.html">Productos</a>
+                            <a class="nav-link" href="product.html">Producto</a>
                         </li>
                     </ul>
                     <a class="btn btn-outline-secondary" href="contact.html">Contacto</a>
@@ -55,21 +55,45 @@
     </header>
 
     <main class="contacto">
-        <div class="container-nike">
+        <div class="row container-nike align-items-center">
 
-            <section class="contacto-ubicacion">
-                <img src="../assets/ubicacion.jpg" alt="ubicacion">
+            <section class="col-12 col-md-4 contacto-ubicacion me-5">
+                <img src="../assets/ubicacion-1.jpg" alt="ubicacion" class="w-100">
             </section>
-            <section class="contacto-formulario">
+            <section class="col-12 col-md-5 contacto-formulario">
                 <h1 class="contacto-titulo"> Contactanos </h1>
-                <div class="contacto-mail">
+                <div class=" my-4 contacto-mail">
                     <img src="../assets/mail.png" alt="icono" width="40px">
                     <a href="mailto:nike.contacto@gmail.com"> nike.contacto@gmail.com </a>
                 </div>
-                <form class="contacto-form">
-                    <input type="text" name="nombre" placeholder=" Nombre ">
-                    <input type="text" name="mail" placeholder=" Correo ">
-                    <input type="submit" value=" Enviar ">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Nombres</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Direccion</label>
+                        <input type="text" class="form-control" placeholder="Av. Matta 1010">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Comuna</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Region</label>
+                        <select class="form-select">
+                            <option selected>Region Metropolitana</option>
+                            <option>Region del Maule</option>
+                            <option>Region Los Lagos</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-dark px-5">Enviar</button>
+                    </div>
                 </form>
             </section>
 

@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+.producto-compra {
+  display: flex;
+  width: fit-content; }
+  .producto-compra input {
+    max-width: 4rem;
+    margin-right: 0.5rem; }
+
+.producto-beneficio {
+  padding-left: 1.5rem; }
+
 .home-destacados-imgs,
 .home-ofertas-bannerdoble {
   text-align: center; }
@@ -31,10 +41,16 @@ a {
   text-decoration: none;
   color: black; }
 
+body {
+  overflow-x: hidden; }
+
 .container-nike {
   width: 100%;
   margin: auto;
   padding: 0 16px; }
+
+main {
+  min-height: 85vh; }
 
 .footer-menu-list {
   display: flex;

@@ -14,9 +14,16 @@ a {
   color: black;
 }
 
+body {
+  overflow-x: hidden;
+}
 
-  .container-nike{
-    width: 100%;
-    margin: auto;
-    padding: 0 16px;
-  }
+.container-nike{
+  width: 100%;
+  margin: auto;
+  padding: 0 16px;
+}
+
+main {
+  min-height: 85vh;
+}
